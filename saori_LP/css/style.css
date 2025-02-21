@@ -1,0 +1,545 @@
+@charset "UTF-8";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fce8c0;
+}
+
+.container {
+  width: 100%;
+  background-color: #fbb03b;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+}
+
+.logo {
+  width: 119px;
+  height: 51px;
+  width: 100%;
+  margin-top: 22px;
+}
+
+.navigation {
+  width: 33px;
+  height: 44px;
+  position: absolute;
+  top: 22px;
+  right: 24px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 32px;
+}
+
+.img-2 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.img-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+.img-4 {
+  margin-top: 14px;
+  right: 0;
+  width: 80%;
+}
+
+.img-4 img {
+  width: 80%;
+}
+
+.slide {
+  margin-bottom: 30px;
+}
+
+.bg-2 {
+  background-color: #fce8c0;
+  height: 245px;
+  position: relative;
+}
+
+.bg-2 img {
+  position: absolute;
+  bottom: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.concept-1 {
+  margin-top: 33px;
+  width: 90%;
+}
+
+.concept img {
+  width: 90%;
+}
+
+.title-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.title-1 img {
+  width: 90%;
+}
+
+div .line {
+  text-align: center;
+  margin-top: -9px;
+}
+
+.sentence {
+  margin-top: 5px;
+  font-family: "游明朝体+36ポかな", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #42210b;
+  width: 100%;
+}
+
+div .sentence {
+  width: 100%;
+}
+
+@media screen and(max-width: 600px) {
+  .sentence {
+    font-size: 30px;
+    width: 100%;
+  }
+}
+
+.question {
+  text-align: center;
+  margin-top: 59px;
+  width: 100%;
+}
+
+.question img {
+  width: 60%;
+}
+
+.spice {
+  text-align: center;
+}
+
+.spice-2 {
+  margin-top: 20px;
+  width: 90%;
+}
+
+.spice-2 img {
+  width: 80%;
+}
+
+.master {
+  text-align: center;
+  margin-top: 28px;
+  width: 100%;
+}
+
+.master img {
+  width: 100%;
+}
+
+.foodloss {
+  background-color: #fff;
+  background-image: url(../title2/bg_img_03.png);
+}
+
+.title-2 {
+  text-align: center;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.title-2 img {
+  width: 80%;
+}
+
+.voice {
+  text-align: center;
+  margin-top: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  color: #42210b;
+  width: 100%;
+}
+
+.voice img {
+  width: 80%;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+}
+
+.message img {
+  text-align: center;
+  bottom: 20px;
+  width: 70%;
+}
+
+.pot {
+  width: 100%;
+}
+
+.pot img {
+  width: 100%;
+}
+
+.comfortable {
+  background-color: #fce8c0;
+}
+
+.concept-3 {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.concept-3 img {
+  width: 80%;
+}
+
+.master {
+  margin-top: 13px;
+  width: 100%;
+}
+
+.master img {
+  width: 80%;
+}
+
+.sofa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 13px 54px;
+  width: 100%s;
+}
+
+.sofa img {
+  width: 100%;
+}
+
+.bach {
+  margin-top: 7px;
+  text-align: center;
+  width: 100%;
+}
+
+.bach img {
+  width: 80%;
+}
+
+.pot-double {
+  text-align: center;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+.pot-double img {
+  width: 100%;
+}
+
+.menu {
+  background-color: #1b1e37;
+}
+
+.title-4 {
+  text-align: center;
+  margin-top: 52px;
+  margin-bottom: 33px;
+}
+
+.category {
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
+  font-size: 25px;
+  font-family: "游明朝体+36ポかな", serif;
+  padding-top: 30px;
+  margin-bottom: 16px;
+}
+
+
+.meals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.meals li img {
+  margin-bottom: 20px;
+}
+
+.snack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  margin: 15px;
+  margin-bottom: 42px;
+}
+
+.desert {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+.drink {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.drink-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+.drink-3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+.alchol {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+.alchol-2 {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.pot-2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.pot-2 img {
+  width: 100%;
+}
+
+.information {
+  background-color: #fce8c0;
+  padding-bottom: 39px;
+  color: #42210b;
+}
+
+.info {
+  padding-top: 59px;
+}
+
+.logo-2 {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.exterior {
+  margin-top: 14px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.exterior img {
+  width: 100%;
+}
+
+.info-title {
+  font-size: 30px;
+  font-family: "Kaisei Opti", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.detail {
+  font-size: 20px;
+  margin-top: 18px;
+  margin-bottom: 50px;
+  line-height: 34px;
+}
+
+.transport {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.transport-2 {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.map {
+  font-size: 30px;
+  text-align: center;
+}
+
+.map-img {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 42px;
+}
+
+.phonenumber {
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+span {
+  font-size: 20px;
+  color: #0000ff;
+}
+
+.sns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 37px;
+  margin-left: 107px;
+  margin-right: 97px;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.reservation {
+  line-height: 1.5;
+}
+
+.sitemap {
+  background-color: #1b1e37;
+  padding-top: 39px;
+  padding-bottom: 34px;
+}
+
+.top {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.top a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "游明朝体+36ポかな", serif;
+}
+
+.concept {
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  margin: 45px 80px 0px 80px;
+}
+
+.concept a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "游明朝体+36ポかな", serif;
+}
+
+.info {
+  /* display: block; */
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 80px 45px 80px;
+}
+
+.info img {
+  width: 90%;
+}
+
+.info a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "游明朝体+36ポかな", serif;
+}
+
+.simtemap {
+  font-family: "游明朝体+36ポかな", serif;
+  display: flex;
+  justify-content: center;
+}
+
+small {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: "游明朝体+36ポかな", serif;
+}
+
+@media screen and (min-width: 880px) {
+
+  .sp {
+    display: block;
+  }
+
+  @media screen and (min-width: 880px) {
+    .pc {
+      display: none;
+    }
+  }
+
+  .sp {
+    display: none;
+  }
+
+  @media screen and (min-width: 880px) {
+    .sp {
+      display: block;
+    }
+  }
+}
